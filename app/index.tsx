@@ -11,10 +11,11 @@ import { Timer } from "./timer";
 /*import { CampoMinado } from "./teste";*/
 import { MousePositionComponent } from "./mousePositionComponent";
 import { TodoList } from "./todoList";
+import { DataFetcher } from "./dataFetcher";
 
 export default function Index(){
   return(
-    <TodoList />
+    <DataFetcher />
   )
     
 }

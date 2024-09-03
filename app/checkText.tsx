@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet, CheckBox } from 'react-native';
+import { useState } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import CheckBox from '@react-native-community/checkbox';
 
 export const CheckText = () => {
   const [isSantosChecked, setIsSantosChecked] = useState(false);

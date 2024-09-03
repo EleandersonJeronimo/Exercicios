@@ -11,13 +11,14 @@ export const LoginForm = () => {
 
     return(
         <View>
-            <TextInput 
+            <TextInput
                 placeholder="Digite seu nome"
                 onChangeText={(text) => setUsuario(text)}
             />
 
             <TextInput
                 placeholder="Digite sua senha"
+                secureTextEntry={true}
                 onChangeText={(text) => setSenha(text)}
             />
             

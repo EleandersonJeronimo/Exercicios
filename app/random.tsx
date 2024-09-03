@@ -17,3 +17,27 @@ export const Random = () => {
         </View>
     )
 }
+
+// 6)import { Text, View, Button } from "react-native";
+// import { useState } from "react";
+
+// type RandomItemProps = {
+//     items: string[];
+// }
+
+// export const Random = ( {items} : RandomItemProps) => {
+//     const[num, setNum] = useState<string>('')
+
+//     const sort = () => {
+//         const index = Math.floor(Math.random() * items.length);
+//         setNum(items[index]);
+//     }
+
+//     return(
+//         <View>
+//             <Text>{num}</Text>
+//             <Button title="Sortear" onPress={sort}
+//             />
+//         </View>
+//     )
+// }
